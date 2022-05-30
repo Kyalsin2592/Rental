@@ -105,6 +105,7 @@ public class AddActivity extends AppCompatActivity {
 
                 if(isInserted==true){
                     Toast.makeText(AddActivity.this,"Data is inserted",Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(AddActivity.this,ViewActivity.class));
                     cleardata();
                 }else{
                     Toast.makeText(AddActivity.this,"Data is not inserted",Toast.LENGTH_LONG).show();

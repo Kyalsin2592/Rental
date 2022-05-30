@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
         update=findViewById(R.id.btnUpdate);
         delete=findViewById(R.id.btnDelete);
 
+
         codeForAddButton();
         codeForViewButton();
         codeForUpdateButton();
@@ -35,7 +36,6 @@ public class HomeActivity extends AppCompatActivity {
             Intent intent=new Intent(getApplicationContext(),ViewActivity.class);
             startActivity(intent);
         });
-
     }
     public void codeForUpdateButton(){
         update.setOnClickListener(view1 -> {
@@ -43,7 +43,6 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
         });
     }
-
     public void codeForDeleteButton(){
         delete.setOnClickListener(view1 -> {
             Intent intent=new Intent(getApplicationContext(),DeleteActivity.class);

@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DeleteActivity"
-    android:background="@drawable/wp4">
+    android:background="@drawable/custom_button_background">
 
     <TextView
+
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
-        android:fontFamily="serif"
+        android:fontFamily="@font/audiowide"
         android:text="Deleting The Data"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +24,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+        app:startIconTint="@color/white"
         android:id="@+id/RNum_Confirm"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="369dp"
@@ -40,6 +44,7 @@
         app:startIconDrawable="@drawable/ic_widgets">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:textColor="@color/white"
             android:id="@+id/RNumEdit_Confirm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,6 +53,7 @@
 
 
     <Button
+        android:fontFamily="@font/audiowide"
         android:id="@+id/confirm_update"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -66,6 +72,7 @@
         app:layout_constraintVertical_bias="0.239" />
 
     <Button
+        android:fontFamily="@font/audiowide"
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wp4"
+    android:background="@drawable/custom_button_background"
     tools:context=".ViewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        tools:listitem="@layout/dataentry"
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

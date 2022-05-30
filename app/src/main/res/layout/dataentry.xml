@@ -28,18 +28,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_bhai"
                 android:text="Reference_Number: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textColor="@color/main"
+                android:textSize="16sp" />
 
             <TextView
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textReferenceNum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textSize="16sp"
+                android:textColor="@color/main"
+                />
         </LinearLayout>
 
 
@@ -50,20 +51,22 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="DateTime: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textColor="@color/main"
+               />
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textDTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textColor="@color/main"
+               />
         </LinearLayout>
 
         <LinearLayout
@@ -73,20 +76,22 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Price: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textColor="@color/main"
+               />
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
-                style="bold"/>
+                android:textColor="@color/main"
+               />
         </LinearLayout>
 
 
@@ -97,19 +102,21 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PropertyType: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textPtype"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
         </LinearLayout>
 
@@ -120,19 +127,21 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="BedroomType: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textBtype"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
         </LinearLayout>
 
@@ -143,19 +152,21 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="FurnitureType: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textFtype"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
         </LinearLayout>
 
@@ -166,19 +177,21 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ReporterName: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:id="@+id/textRName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
         </LinearLayout>
 
@@ -189,19 +202,21 @@
             android:layout_gravity="center_vertical">
 
             <TextView
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Remark: "
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textColor="@color/main"
                 style="bold"/>
 
             <TextView
                 android:id="@+id/textRemark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/baloo_bhai"
+                android:textColor="@color/main"
                 style="bold"/>
         </LinearLayout>
 

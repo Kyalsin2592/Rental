@@ -72,20 +72,22 @@ public class RegisterActivity extends AppCompatActivity {
         codeForSignupButton();
         codeForClickHere();
 
+
+
     }
 
     public void codeForClickHere(){
         clickhere.setOnClickListener(view -> {
             Intent intent=new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);
-            finish();
+
         });
     }
 
     public void codeForSignupButton(){
         signup.setOnClickListener(view -> {
             //NAME,EMAIL,PHONE,PASSWORD,CONFIRM,GENDER
-            NAME=nameEdit.getText().toString();
+          NAME=nameEdit.getText().toString();
             EMAIL=emailEdit.getText().toString();
             PHONE=phoneEdit.getText().toString();
             PASSWORD=passwordEdit.getText().toString();
@@ -93,7 +95,7 @@ public class RegisterActivity extends AppCompatActivity {
             GENDER=genderEdit.getText().toString();
 
 
-            Boolean isValidated=validation(NAME,EMAIL,PHONE,PASSWORD,CONFIRM,GENDER);
+            Boolean isValidated=validation(NAME,EMAIL,PHONE,PASSWORD,CONFIRM,GENDER);//true or false
             if(isValidated && !NAME.isEmpty() && !EMAIL.isEmpty() && !PHONE.isEmpty() && !PASSWORD.isEmpty() && !CONFIRM.isEmpty() && !GENDER.isEmpty()){
                 //check user is already exist or not
                 Boolean checkUser=DB.checkUserName(NAME);
@@ -102,7 +104,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Boolean insertUser=DB.insertData(NAME,EMAIL,PHONE,PASSWORD,GENDER);
                     if(insertUser==true){
                         Toast.makeText(RegisterActivity.this,"SignUp Successfully",Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(getApplicationContext(),HomeActivity.class);
+                        Intent intent=new Intent(RegisterActivity.this,HomeActivity.class);
                         startActivity(intent);
                         finish();
                     }else{
@@ -226,9 +228,13 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     }
+
+
+
+
     //NAME,EMAIL,PHONE,PASSWORD,CONFIRM,GENDER
     public Boolean validation(String NAME,String EMAIL,String PHONE,String PASSWORD,String CONFIRM,String GENDER){
-        Boolean name=checkName(NAME);
+        Boolean name=checkName(NAME);//true
         Boolean email=checkEmail(EMAIL);
         Boolean phone=checkPhone(PHONE);
         Boolean password=checkPassword(PASSWORD);
